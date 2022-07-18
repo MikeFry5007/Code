@@ -1,3 +1,5 @@
+SEE WIKI PAGE FOR SUBFLOW
+
 Hint: Will generate Case(s) for any Affected CIs Accounts with a contact of Day-To-Day Contact Telecom Manager
 onClick: openDialog()
 Condition: gs.hasRole('change_manager') && current.state==-2 && current.type != 'standard' && new  x_att2_attnowinc.CaseUtilChange().isCaseExistForChange(current.sys_id)
